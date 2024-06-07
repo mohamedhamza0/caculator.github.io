@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/site.webmanifest">
+    
+    <title>Calculator</title>
+</head>
+<body>
+    
+   <div class="contanier ">
+        <div class="calculator p-3">
+            <input type="text" placeholder="0" class="mt-5 pe-3 mb-3" id="output-screen">
+            <button onclick="cler()" class="tpbtn">AC</button>
+            <button onclick="del()" class="tpbtn">DEL</button>
+            <button onclick="display('%')" class="tpbtn">%</button>
+            <button onclick="display('/')" class="rghtbtn">/</button>
+            <button onclick="display('7')" class="num">7</button>
+            <button onclick="display('8')" class="num ">8</button>
+            <button onclick="display('9')" class="num">9</button>
+            <button onclick="display('*')" class="rghtbtn">*</button>
+            <button onclick="display('4')" class="num">4</button>
+            <button onclick="display('5')" class="num">5</button>
+            <button onclick="display('6')" class="num">6</button>
+            <button onclick="display('-')" class="rghtbtn">-</button>
+            <button onclick="display('1')" class="num">1</button>
+            <button onclick="display('2')" class="num">2</button>
+            <button onclick="display('3')" class="num">3</button>
+            <button onclick="display('+')" class="rghtbtn">+</button>
+            <button onclick="display('0')" class="zero num">0</button>
+            <button onclick="display('.')" class="num">.</button>
+            <button onclick="calculate()" class="rghtbtn">=</button>
+            
+        </div>
+   </div>
+
+
+    <script  src="js/main.js"></script>
+    <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
+</body>
+</html>
